@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <math.h>
 
-double  pnorm(double x[], int n, double p) {
+double  pnorm(double x[], int k, double p) {
     int i;
     double product = 1;
-    for (i = 0;i >= 0;i++) {
+    for (i = 0;i < k;i++) {
         product *= x[i];
     }
     return pow(product, 1./p);
@@ -17,13 +17,13 @@ int main(){
 
     printf("p\n");
     scanf("%lf",&p);
-    for (i = 0;i >= 0;i++) {
+    for (i = 0;i < k;i++) {
 
-        printf("%d komponente\n",&i);
+        printf("%d komponente\n",i);
         scanf("%lf",&x[i]);
 
     }
-    printf("%d",pnorm(x,k,p));  
+    printf("%f",pnorm(x,k,p));  
     return 0;
     
 }

@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "math.h": "c"
-    }
+        "math.h": "c",
+        "type_traits": "c",
+        "merge": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
