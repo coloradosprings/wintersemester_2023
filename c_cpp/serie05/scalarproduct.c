@@ -1,6 +1,5 @@
 
 #include <stdio.h>
-#include <math.h>
 
 double scalarProduct(double x[], double y[], int n) {
     int i,j;
