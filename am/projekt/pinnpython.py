@@ -22,21 +22,6 @@ train_t = 0
 # project applied machine learning,VO Applied machine learning (2023W)
 
 # %%
-%%html
-<style>
-
- .t {
-
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    justify-content: space-evenly;
-    margin: 5%;
-    width: 100%;
-    list-style-type: none;}
-
-
-</style>
 
 # %% [markdown]
 # <div style="    
